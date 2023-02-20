@@ -112,7 +112,8 @@ repositories {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
-
+    implementation files('/libs/Pixelmon-1.12.2-8.4.3-universal.jar')
+    implementation files('/libs/PokeRadar-Mod-Pixelmon-v5.1-1.12.2.jar')
 
     if (project.use_mixins.toBoolean()) {
         compileOnly 'zone.rong:mixinbooter:7.0'
